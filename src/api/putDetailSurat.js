@@ -1,5 +1,5 @@
 export default function putDetailSurat(data, id) {
-    const url = `http://127.0.0.1:8000/api/letters/${id}`;
+    const url = `https://lettercodeapi.000webhostapp.com/api/letters/${id}`;
 
     return fetch(url, {
         method: "PUT",

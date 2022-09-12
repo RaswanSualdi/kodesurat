@@ -1,5 +1,5 @@
 export default function getCompanies() {
-    const url = "http://127.0.0.1:8000/api/companies";
+    const url = "https://lettercodeapi.000webhostapp.com/api/companies";
 
     return fetch(url, {
         method: "GET",

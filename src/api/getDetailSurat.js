@@ -9,13 +9,13 @@ export default function getDetailSurat(
 ) {
     let url;
     if (filterCompany !== "0" && dateTo) {
-        url = `http://127.0.0.1:8000/api/letters/${id}?page=${page}&data=${data}&search=${query}&date_from=${dateFrom}&date_to=${dateTo}&company=${filterCompany}`;
+        url = `https://lettercodeapi.000webhostapp.com/api/letters/${id}?page=${page}&data=${data}&search=${query}&date_from=${dateFrom}&date_to=${dateTo}&company=${filterCompany}`;
     } else if (filterCompany !== "0") {
-        url = `http://127.0.0.1:8000/api/letters/${id}?page=${page}&data=${data}&search=${query}&company=${filterCompany}`;
+        url = `https://lettercodeapi.000webhostapp.com/api/letters/${id}?page=${page}&data=${data}&search=${query}&company=${filterCompany}`;
     } else if (dateFrom && dateTo) {
-        url = `http://127.0.0.1:8000/api/letters/${id}?page=${page}&data=${data}&search=${query}&date_from=${dateFrom}&date_to=${dateTo}`;
+        url = `https://lettercodeapi.000webhostapp.com/api/letters/${id}?page=${page}&data=${data}&search=${query}&date_from=${dateFrom}&date_to=${dateTo}`;
     } else {
-        url = `http://127.0.0.1:8000/api/letters/${id}?page=${page}&data=${data}&search=${query}`;
+        url = `https://lettercodeapi.000webhostapp.com/api/letters/${id}?page=${page}&data=${data}&search=${query}`;
     }
 
     return fetch(url, {

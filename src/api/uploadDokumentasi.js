@@ -1,5 +1,5 @@
 export default function uploadDokumentasi(data, id) {
-    const url = `http://127.0.0.1:8000/api/files/${id}`;
+    const url = `https://lettercodeapi.000webhostapp.com/api/files/${id}`;
 
     return fetch(url, {
         method: "POST",
