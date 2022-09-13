@@ -2,7 +2,7 @@
   "name": "persuratan-front-end",
   "version": "0.1.0",
   "proxy":"https://lettercodeapi.000webhostapp.com",
-  "homepage": "http://raswansualdi.github.io/kodesurat",
+  "homepage": "https://raswansualdi.github.io/kodesurat/",
   "private": true,
   "dependencies": {
     "@syncfusion/ej2-react-calendars": "^20.1.47",
