@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kodesurat/static/css/main.cc2ec72a.css",
-    "main.js": "/kodesurat/static/js/main.76a950e4.js",
-    "static/js/787.2f3b8669.chunk.js": "/kodesurat/static/js/787.2f3b8669.chunk.js",
-    "index.html": "/kodesurat/index.html",
-    "main.cc2ec72a.css.map": "/kodesurat/static/css/main.cc2ec72a.css.map",
-    "main.76a950e4.js.map": "/kodesurat/static/js/main.76a950e4.js.map",
-    "787.2f3b8669.chunk.js.map": "/kodesurat/static/js/787.2f3b8669.chunk.js.map"
+    "main.css": "/login/static/css/main.cc2ec72a.css",
+    "main.js": "/login/static/js/main.cc8cd0fd.js",
+    "static/js/787.2f3b8669.chunk.js": "/login/static/js/787.2f3b8669.chunk.js",
+    "index.html": "/login/index.html",
+    "main.cc2ec72a.css.map": "/login/static/css/main.cc2ec72a.css.map",
+    "main.cc8cd0fd.js.map": "/login/static/js/main.cc8cd0fd.js.map",
+    "787.2f3b8669.chunk.js.map": "/login/static/js/787.2f3b8669.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc2ec72a.css",
-    "static/js/main.76a950e4.js"
+    "static/js/main.cc8cd0fd.js"
   ]
 }
